@@ -130,7 +130,11 @@ h4 {
 p {
 	font-family: normal;
 	font-size: 30pt;
+}
+
+p.center {
 	text-align: center;
+	
 }
 
 a.Buy:link {
