@@ -1,22 +1,85 @@
-body {
+@font-face {
+		font-family: 'bold';
+		src: url('Futura Bold font.ttf');
+}
+
+@font-face {
+		font-family: 'bolditalic';
+		src: url('Futura Bold Italic font.ttf');
+}
+
+@font-face {
+		font-family: 'normal';
+		src: url('futura medium condensed bt.ttf');
+}
+
+body.Home {
 	background-image: url('homebackground.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	
+}
+
+Home.GamePlay {
+	background-image: url('gameplaybackground.jpg');
+
 	
 	
+}
+
+Home.PersonalConnections {
+	
+	
+	
+	
+}
+
+
+Home.Gallery {
+	
+	
+	
+	
+}
+
+div.main {
+	margin-top: 700px;
+	margin-left: 0px;
+	background-color: white;
+	height: 1500px;
+	width: 1350px;
+	padding: 30px;
+	
+}
+
+
+img.mainlogo {
+	margin-top: 50px;
+	margin-left: 40px;
+	width: 761px;
+	height: 294px;
+}
+
+img.photo1 {
+	width: 800px;
+	height: 450px;
+	padding: 10px;
+	float: right;
 }
 
 ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	background-color: #333;
+	background-color: rgba(0, 0, 0, 0.1);
 	overflow: hidden;
+	position: sticky;
+	font-family: bold;
 }
 
 ul li {
 	float: left;
-	width: 356px;
+	width: 350px;
 	font-size: 20pt;
 }
 			
@@ -28,7 +91,44 @@ padding: 14px;
 text-decoration: none;
 }
 
-ul li a:hover {
-background-color: #111;
 
-{
+li a:hover {
+	
+
+}
+
+h1 {
+	font-family: bold;
+	font-size: 49pt;
+	margin-left: 10px;
+	
+	
+}
+
+a.Buy:link {
+	color: black;
+	background-color: dodgerblue;
+	padding: 70px 100px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 550px;
+	border: 5px dodgerblue;
+	border-radius: 100px;
+	margin-top: 80px;
+	font-family: bold;
+	font-size: 40pt;
+	
+}
+
+a.Buy:visited {
+	color: black;
+}
+
+a.Buy:hover {
+	color: black;
+}
+
+a.Buy:active {
+	color: black;
+}
