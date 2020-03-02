@@ -20,11 +20,10 @@ body.Home {
 	
 }
 
-Home.GamePlay {
+body.GamePlay {
 	background-image: url('gameplaybackground.jpg');
-
-	
-	
+	width: 1400px;
+	height: 781px;
 }
 
 Home.PersonalConnections {
@@ -67,6 +66,16 @@ img.photo1 {
 	float: right;
 }
 
+img.launch {
+	float: right;
+	width: 720px;
+	height: 360px;
+	
+	
+	
+	
+}
+
 ul {
 	list-style-type: none;
 	margin: 0px;
@@ -101,8 +110,27 @@ h1 {
 	font-family: bold;
 	font-size: 49pt;
 	margin-left: 10px;
-	
-	
+}
+
+h2 {
+	font-family: bold;
+	font-size: 69pt;
+	margin-left: 100px;
+	margin-top: 100px;
+	color: white;
+}
+
+h4 {
+	font-family: bold;
+	font-size: 49pt;
+	margin-left: 10px;
+	text-align: center;
+}
+
+p {
+	font-family: normal;
+	font-size: 30pt;
+	text-align: center;
 }
 
 a.Buy:link {
