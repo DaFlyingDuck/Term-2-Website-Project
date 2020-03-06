@@ -35,7 +35,10 @@ body.PersonalConnections {
 
 
 body.Gallery {
-	
+	background-image: url('gallerybackground.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 1450px 781px;
 	
 	
 	
@@ -71,6 +74,27 @@ div.mainpersonalconnections {
 	
 }
 
+div.table {
+	background-color: cornflowerblue;
+	box-shadow: -20px -20px 40px black;
+	padding: 20px;
+	margin-left: 100px;
+	margin-top: 80px;
+	right: 40px;
+	top: 40px;
+	width: 1000px;
+	
+}
+
+div.mainpersonalconnections {
+	margin-top: 350px;
+	margin-left: 0px;
+	background-color: white;
+	height: 2000px;
+	width: 1350px;
+	padding: 30px;
+	
+}
 
 img.mainlogo {
 	margin-top: 50px;
@@ -158,6 +182,169 @@ img.spacestation {
 	margin-top: 100px;
 }
 
+img.orbitalmech {
+	float: right;
+	width: 586px;
+	height: 386px;
+	margin-top: 150px;
+}
+
+img.crazybuilds {
+	float: left;
+	width: 699px;
+	height: 410px;
+	margin-top: 250px;
+	padding: 20px;
+}
+
+img.delta-v {
+	width: 1240px;
+	height: 1754px;
+}
+
+img.gallery1 {
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 600px;
+}
+
+img.gallery2 {
+	width: 1024px;
+	height: 576px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery3 {
+	width: 1024px;
+	height: 576px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery4 {
+	width: 810px;
+	height: 486px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery5 {
+	width: 960px;
+	height: 450px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery6 {
+	width: 768px;
+	height: 432px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery7 {
+	width: 800px;
+	height: 450px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery8 {
+	width: 838px;
+	height: 637px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery9 {
+	width: 777px;
+	height: 428px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery10 {
+	width: 820px;
+	height: 614px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery11 {
+	width: 820px;
+	height: 614px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+img.gallery12 {
+	width: 1093px;
+	height: 614px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+table, th, td {
+	border-bottom: 1px solid #DDDDDD;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 1000px;
+	background-color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #DDD;
+}
+
+tr:nth-child(odd) {
+	background-color: #EEE;
+}
+
+tr:hover {
+	background-color: cadetblue;
+	color: white;
+}
+
+th, td {
+	padding: 5px;
+	font-family: normal;
+	font-size: 20pt;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0px;
@@ -202,12 +389,6 @@ h2 {
 	color: white;
 }
 
-h2.personal {
-	margin-left: 50px;
-	margin-top: 70px;
-	
-}
-
 h4 {
 	font-family: bold;
 	font-size: 49pt;
@@ -237,6 +418,16 @@ h5.spaceplane {
 
 h5.aircraft {
 	margin-top: 360px;
+}
+
+h5.infinite {
+	margin-top: 250px;
+	margin-left: 800px;
+	
+}
+
+h5.deltav {
+	text-align: center;
 }
 
 p {
