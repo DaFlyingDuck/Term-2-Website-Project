@@ -22,8 +22,7 @@ body.Home {
 
 body.GamePlay {
 	background-image: url('gameplaybackground.jpg');
-	width: 1400px;
-	height: 781px;
+	background-size: 1450px 781px;
 }
 
 body.PersonalConnections {
@@ -36,62 +35,83 @@ body.PersonalConnections {
 
 body.Gallery {
 	background-image: url('gallerybackground.jpg');
-	background-size: contain;
 	background-repeat: no-repeat;
 	background-size: 1450px 781px;
-	
-	
-	
+}
+
+body.KSP2 {
+	background-image: url('');
+	background-size: 1450px 781px;
+	background-repeat: no-repeat;
 }
 
 div.mainhome {
 	margin-top: 700px;
 	margin-left: 0px;
+	margin-right: 0px;
 	background-color: white;
 	height: 1500px;
-	width: 1350px;
 	padding: 30px;
 	
 }
 
 div.maingameplay {
-	margin-top: 700px;
+	margin-top: 350px;
 	margin-left: 0px;
+	margin-right: 0px;
 	background-color: white;
 	height: 6000px;
-	width: 1350px;
 	padding: 30px;
-	
 }
 
 div.mainpersonalconnections {
 	margin-top: 350px;
 	margin-left: 0px;
+	margin-right: 0px;
 	background-color: white;
 	height: 2000px;
-	width: 1350px;
 	padding: 30px;
-	
 }
 
 div.table {
 	background-color: cornflowerblue;
-	box-shadow: -20px -20px 40px black;
+	box-shadow: -5px -5px 20px black;
 	padding: 20px;
 	margin-left: 100px;
 	margin-top: 80px;
 	right: 40px;
 	top: 40px;
 	width: 1000px;
-	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div.mainpersonalconnections {
 	margin-top: 350px;
 	margin-left: 0px;
+	margin-right: 0px;
 	background-color: white;
 	height: 2000px;
-	width: 1350px;
+	padding: 30px;
+}
+
+div.gallery {
+	margin-top: 350px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: white;
+	height: 2000px;
+	padding: 30px;
+	
+}
+
+div.KSP2 {
+	margin-top: 350px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: white;
+	height: 2000px;
 	padding: 30px;
 	
 }
@@ -200,6 +220,9 @@ img.crazybuilds {
 img.delta-v {
 	width: 1240px;
 	height: 1754px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 img.gallery1 {
@@ -310,6 +333,53 @@ img.gallery12 {
 	margin-top: 100px;
 }
 
+img.gallery1:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery2:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery2:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery4:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery5:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery6:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery7:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery8:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery9:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery10:hover {
+	transform: scale(1.25, 1.25);
+}
+
+img.gallery11:hover {
+	transform: scale(1.25, 1.25);
+}
+img.gallery12:hover {
+	transform: scale(1.25, 1.25);
+}
+
 table, th, td {
 	border-bottom: 1px solid #DDDDDD;
 	text-align: center;
@@ -357,16 +427,16 @@ ul {
 
 ul li {
 	float: left;
-	width: 350px;
+	width: 281px;
 	font-size: 20pt;
 }
 			
 ul li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px;
-text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
 }
 
 
